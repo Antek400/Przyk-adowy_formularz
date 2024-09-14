@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl>">
+    <head>
+        <meta charset="UTF-8">
+        <title>Przykładowy formularz HTML</title>
+        <style>
+            body {
+                background-color: darkcyan;
+            }
+            form {
+                text-align: center;
+                padding: 50px;
+            }
+            h1, h2 {
+                text-align: center;
+            }
+            option, select {
+                height: auto;
+                width: 178px;
+            }
+        </style>
+    </head>
+        <body>
+            <h1>Przykładowy formularz HTML stworzony na potrzeby prezentacji</h1>
+            <h2>(Prosze wypróbować i wypełnić wszystkie okienka)</h2>
+            <hr color="black">
+            <form action="mailto:doszkoly2l6@gmail.com" method="post">
+                Imię:<br>
+                <input type="text" name="imie"><br>
+                Nazwisko:<br>
+                <input type="text" name="nazwisko"><br>
+                Nazwa użytkownika:<br>
+                <input type="text" name="nazwa_użytkownika"><br>
+                Mail<br>
+                <input type="email" name="email"><br>
+                Płeć:<br>
+                <select>
+                    <option>Mężczyzna</option>
+                    <option>Kobieta</option>
+                    <option disabled>Inne (XD)</option>
+                </select><br>
+                Hasło:<br>
+                <input type="password"><br>
+                Komentarz co poprawić:<br>
+                <textarea name="Komentarz co poprawić" cols="21" rows="5">Np. Kolor tła</textarea><br>
+                <br>
+                <input type="submit" value="Zatwierdź">
+            </form>
+        </body>
+</html>
